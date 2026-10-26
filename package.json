@@ -1,0 +1,11 @@
+{
+  "name": "zapkart-monorepo",
+  "version": "1.0.0",
+  "description": "ZapKart - Flipkart Clone built with React, Bun.js, PostgreSQL, Redis, and Express.js",
+  "scripts": {
+    "dev:server": "cd server && bun run dev",
+    "dev:client": "cd client && bun run dev",
+    "seed": "cd server && bun run seed",
+    "build:client": "cd client && bun run build"
+  }
+}
